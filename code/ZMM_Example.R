@@ -37,3 +37,5 @@ for (pt in unique(charSub$provinceID)){ # Start looping through provinces
   ggsave(paste0("data_output/zmm_example/Median_Revenue_", pt, ".png"), width = 8, height = 5) # save the graph to the output folder.
   
 } # End looping through provinces
+
+# test change
