@@ -21,4 +21,5 @@ for (f in files){
 
 # Remove unnecessary objects from environment
 rm(location, files, f, csv)
-
+install.packages("tidyverse")
+library(tidyverse)
