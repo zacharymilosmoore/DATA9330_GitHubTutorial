@@ -5,7 +5,7 @@ library(tidyverse)
 
 # Create objects to quickly load the datasets
 location <- "data_input/DATA9115_DB03__Charity/"
-files <- list.files(data_input_location)
+files <- list.files(location)
 files
 
 # Create a loop through the files in the envchar database (csvs) to load them
